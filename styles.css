@@ -8,10 +8,12 @@ body {
 header {
     background-color: #333;
     padding: 1em;
-}
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
 h1 {
-    color: #fff;         /* 设置字体颜色为白色 */
-    text-align: center;   /* 使文本居中对齐 */
+    color: #fff;         
+    text-align: center;   
 }
 nav a {
     color: #fff;
