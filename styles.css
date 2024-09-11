@@ -26,7 +26,6 @@ nav a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1em;
 }
-
 nav a:hover {
     background-color: #555;
     border-radius: 4px;
