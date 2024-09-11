@@ -4,13 +4,14 @@ body {
     margin: 0;
     padding: 0;
 }
-
 header {
-    background-color: #fff;
-    padding: 1em;
+    background-color: white; 
+    border-bottom: 2px solid black; /* 添加黑色底框，2px 为框的厚度 */
+    padding: 10px; /* 可选：调整内边距 */
     display: flex;
     justify-content: space-between; 
-    align-items: center; 
+    align-items: center; /* 可选：让文本居中对齐 */
+}
 h1 {
     color: #fff;         
     text-align: center;   
