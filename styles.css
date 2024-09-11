@@ -5,21 +5,18 @@ body {
     padding: 0;
 }
 header {
+    background-color: black; 
     border-bottom: 2px solid black;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-h1 {
-    color: black;
-    margin: 0;
-}
 nav {
     display: flex;
 }
 nav a {
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 0.5em 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
