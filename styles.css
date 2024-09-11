@@ -13,8 +13,11 @@ header {
     align-items: center;
 }
 h1 {
-    color: black;         
-    text-align: center;   
+    color: black;
+    margin: 0;
+}
+nav {
+    display: flex;
 }
 nav a {
     color: black;
