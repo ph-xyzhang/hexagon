@@ -9,7 +9,10 @@ header {
     background-color: #333;
     padding: 1em;
 }
-
+h1 {
+    color: white;         /* 设置字体颜色为白色 */
+    text-align: center;   /* 使文本居中对齐 */
+}
 nav a {
     color: #fff;
     text-decoration: none;
