@@ -13,11 +13,11 @@ header {
     align-items: center; /* 可选：让文本居中对齐 */
 }
 h1 {
-    color: #fff;         
+    color: black;         
     text-align: center;   
 }
 nav a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     padding: 0.5em 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
