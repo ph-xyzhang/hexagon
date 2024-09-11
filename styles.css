@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #808080; /* 设置背景色为黑色 */
+    background-color: #000000; /* 设置背景色为黑色 */
     border-bottom: 2px solid white; /* 你可以选择不同颜色的边框，这里用白色 */
     padding: 10px;
     display: flex;
