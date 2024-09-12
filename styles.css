@@ -46,13 +46,14 @@ main {
     padding: 2em;
     margin-bottom: 2.2em; /* 调整底部外边距，以确保内容不被 footer 遮挡 */
 }
-
 footer {
-    background-color: #333; /* 底部背景颜色为深灰色 */
-    color: #fff; /* 底部文字颜色为白色 */
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    padding: 0.4em; /* 将内边距减小，以减少 footer 高度 */
+    padding: 0.2em; /* 进一步减少内边距 */
+    font-size: 0.8em; /* 减小字体大小 */
     position: fixed;
     width: 100%;
-    bottom: 0; /* 定位在视口底部 */
+    box-sizing: border-box;
+    bottom: 0;
 }
