@@ -17,7 +17,28 @@ h1 {
     color: white; /* 设置标题颜色为白色 */
     margin: 0; /* 去除默认外边距 */
 }
-
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h2 {
+    color: #333;
+}
+.education {
+    margin-bottom: 20px;
+}
+.education h2 {
+    margin: 0;
+    color: #555;
+}
+.education p {
+    margin: 5px 0;
+    color: #666;
+}
 nav {
     display: flex;
 }
