@@ -7,45 +7,44 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Upload Your Notes</h1>
-        <form id="notesForm">
-            <div class="form-group">
-                <label for="noteText">Note Text:</label>
-                <textarea id="noteText" name="noteText" placeholder="Enter your notes here" required></textarea>
-            </div>
-            <div class="form-group">
-                <button type="submit">Add Note</button>
-            </div>
-        </form>
-        <div class="notes-list">
-            <h2>Uploaded Notes:</h2>
-            <div id="notesContainer">
-                <!-- Notes will be displayed here -->
-            </div>
-        </div>
-    </div>
-
-    <script>
-        document.getElementById('notesForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            
-            const noteTextArea = document.getElementById('noteText');
-            const noteText = noteTextArea.value.trim();
-            
-            if (noteText) {
-                const notesContainer = document.getElementById('notesContainer');
-                const noteDiv = document.createElement('div');
-                noteDiv.textContent = noteText;
-                noteDiv.style.border = '1px solid #ddd';
-                noteDiv.style.padding = '10px';
-                noteDiv.style.marginTop = '10px';
-                noteDiv.style.borderRadius = '4px';
-                notesContainer.appendChild(noteDiv);
-                
-                noteTextArea.value = ''; // Clear the text area
-            }
-        });
-    </script>
+    <header>
+        <h1>Zhang Xinye</h1>
+        <nav>
+            <a href="homepage.html">Homepage</a>
+            <a href="education.html">Education</a>
+            <a href="research.html">Research</a>
+            <a href="notes.html">Notes</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Quantum mechanics</h2>
+            <p>You can reach me via email at: <a href="mailto:zhangxinye@example.com">1155173785@link.cuhk.edu.com</a></p>
+        </section>
+        <section>
+            <h2>Electromagnetism</h2>
+            <p>You can reach me via email at: <a href="mailto:zhangxinye@example.com">1155173785@link.cuhk.edu.com</a></p>
+        </section>
+        <section>
+            <h2>Statistical mechanics</h2>
+            <p>You can reach me via email at: <a href="mailto:zhangxinye@example.com">1155173785@link.cuhk.edu.com</a></p>
+        </section>
+        <section>
+            <h2>Classical mechanics</h2>
+            <p>You can reach me via email at: <a href="mailto:zhangxinye@example.com">1155173785@link.cuhk.edu.com</a></p>
+        </section>
+        <section>
+            <h2>Solid state Physics</h2>
+            <p>You can reach me via email at: <a href="mailto:zhangxinye@example.com">1155173785@link.cuhk.edu.com</a></p>
+        </section>
+        <section>
+            <h2>Field theory</h2>
+            <p>You can reach me via email at: <a href="mailto:zhangxinye@example.com">1155173785@link.cuhk.edu.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Zhang Xinye</p>
+    </footer>
 </body>
 </html>
