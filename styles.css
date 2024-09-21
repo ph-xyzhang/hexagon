@@ -48,8 +48,10 @@ main {
 }
 
 img {
-            max-width: 200px; /* Adjust based on your preference */
-            border-radius: 50%; /* Optional: makes the image circular */
+            width: 150px; /* Adjust width as needed */
+            height: auto;
+            border-radius: 50%; /* Creates the oval shape */
+            margin-left: 20px; /* Space between text and image */
         }
 
 footer {
