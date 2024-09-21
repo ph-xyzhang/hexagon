@@ -46,6 +46,12 @@ main {
     padding: 2em;
     margin-bottom: 2.2em; /* 调整底部外边距，以确保内容不被 footer 遮挡 */
 }
+
+img {
+            max-width: 200px; /* Adjust based on your preference */
+            border-radius: 50%; /* Optional: makes the image circular */
+        }
+
 footer {
     background-color: #333;
     color: #fff;
