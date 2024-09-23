@@ -28,7 +28,7 @@ h1 {
 h2 {
     color: black; 
     margin: 0; 
-    font-family: 'Comic Sans MS', Arial, sans-serif; /* 确保副标题使用 Comic Sans MS */
+    font-family: 'Bradley Hand', Comic Sans MS, Arial, sans-serif; /* 确保副标题使用 Comic Sans MS */
 }
 
 nav {
