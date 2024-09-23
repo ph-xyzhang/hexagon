@@ -1,5 +1,5 @@
 body {
-    font-family: 'Comic Sans MS', Arial, sans-serif; /* 这里设置为 Comic Sans MS */
+    font-family: 'Bradley Hand', Comic Sans MS, Arial, sans-serif; /* 这里设置为 Comic Sans MS */
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* 确保内边距和边框包含在元素的总宽度和高度内 */
@@ -22,7 +22,7 @@ header {
 h1 {
     color: white; /* 标题颜色为白色 */
     margin: 0; /* 去除默认外边距 */
-    font-family: 'Comic Sans MS', Arial, sans-serif; /* 确保标题使用 Comic Sans MS */
+    font-family: 'Bradley Hand', Comic Sans MS, sans-serif; /* 确保标题使用 Comic Sans MS */
 }
 
 h2 {
@@ -39,7 +39,7 @@ nav a {
     color: white; /* 导航链接颜色为白色 */
     text-decoration: none;
     padding: 0.5em 1em;
-    font-family: 'Comic Sans MS', Arial, sans-serif; /* 确保导航链接使用 Comic Sans MS */
+    font-family: 'Bradley Hand', Comic Sans MS, Arial, sans-serif; /* 确保导航链接使用 Comic Sans MS */
     font-size: 1.1em;
 }
 
@@ -71,5 +71,5 @@ footer {
     width: 100%;
     box-sizing: border-box;
     bottom: 0;
-    font-family: 'Comic Sans MS', Arial, sans-serif; /* 确保页脚使用 Comic Sans MS */
+    font-family: 'Bradley Hand', Comic Sans MS, Arial, sans-serif; /* 确保页脚使用 Comic Sans MS */
 }
