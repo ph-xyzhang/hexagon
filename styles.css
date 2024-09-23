@@ -1,8 +1,8 @@
 body {
-    font-family: 'Bradley Hand', Comic Sans MS, Arial, sans-serif; /* 这里设置为 Comic Sans MS */
+    font-family: 'Bradley Hand', Comic Sans MS, Arial, sans-serif; /* 设置字体 */
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* 确保内边距和边框包含在元素的总宽度和高度内 */
+    box-sizing: border-box; /* 包含内边距和边框 */
 }
 
 html, body {
@@ -50,22 +50,31 @@ nav a:hover {
 }
 
 main {
+    display: flex; /* 使用 Flexbox 布局 */
     padding: 2em;
-    margin-bottom: 2.2em; /* 调整底部外边距，以确保内容不被 footer 遮挡 */
+    margin-bottom: 2.2em; /* 确保内容不被 footer 遮挡 */
+}
+
+.sidebar {
+    flex: 0 0 150px; /* 左侧栏宽度固定为 150px */
+    margin-right: 20px; /* 右侧文本与左侧图像间距 */
+}
+
+.content {
+    flex: 1; /* 右侧栏占据剩余空间 */
 }
 
 img {
-    width: 150px; /* 调整宽度 */
-    height: auto;
+    width: 100%; /* 图像宽度为 100% */
+    height: auto; /* 保持图像比例 */
     border-radius: 50%; /* 创建椭圆形 */
-    margin-left: 20px; /* 文本和图像之间的间距 */
 }
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 0.2em; /* 进一步减少内边距 */
+    padding: 0.2em; /* 减少内边距 */
     font-size: 0.8em; /* 减小字体大小 */
     position: fixed;
     width: 100%;
