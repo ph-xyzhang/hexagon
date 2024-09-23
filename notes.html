@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zhang Xinye</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        var password = prompt("Enter the password:");
+        if (password !== "phys2025@cuhk") {
+            alert("Access denied.");
+            window.location.href = "about:blank"; // Redirect to a blank page
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -19,7 +26,7 @@
         </nav>
     </header>
     <main>
-        </section>
+        <section>
             <h2>Complex analysis</h2>
             <p><a href="Introduction to complex analysis_junjiro.pdf">Introduction to complex analysis(junjiro)</a></p>
         </section>
@@ -52,7 +59,7 @@
             <h2>Phase transitions</h2>
             <p><a href="Quantum phase transitions.pdf">Quantum phase transitions(Subir)</a></p>
         </section>
-        </main>
+    </main>
     <footer>
         <p>&copy; 2024 Zhang Xinye</p>
     </footer>
