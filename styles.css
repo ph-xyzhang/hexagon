@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    background-color: #f9f9f9; /* 浅灰色背景 */
 }
 
 html, body {
@@ -12,12 +13,13 @@ html, body {
 
 header {
     background-color: #FFFFFF; /* 白色背景 */
-    border-bottom: 2px solid red; /* 红色边框 */
-    padding: 10px;
+    border-bottom: 2px solid #ff6666; /* 浅红色边框 */
+    padding: 15px 20px; /* 增加内边距 */
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #003366; /* 深蓝色字体 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */
 }
 
 h1, h2 {
@@ -36,12 +38,14 @@ nav a {
     padding: 0.5em 1em;
     font-family: Georgia, Arial, sans-serif; 
     font-size: 1.1em;
+    transition: background-color 0.3s, color 0.3s; /* 增加过渡效果 */
 }
 
 nav a:hover {
     background-color: #FFCCCC; /* 浅红色悬停背景 */
     color: white; 
     border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 添加阴影 */
 }
 
 main {
@@ -63,18 +67,19 @@ img {
     width: 100%; 
     height: auto; 
     border-radius: 50%; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加图片阴影 */
 }
 
 footer {
     background-color: #FFFFFF; /* 白色背景 */
     color: #003366; /* 深蓝色字体 */
     text-align: center;
-    padding: 0.2em; 
-    font-size: 0.8em; 
+    padding: 0.5em; /* 增加内边距 */
+    font-size: 0.9em; /* 适当增大字体 */
     position: fixed;
     width: 100%;
     box-sizing: border-box;
     bottom: 0;
     font-family: Georgia, Comic Sans MS, Arial, sans-serif; 
-    border-top: 2px solid red; /* 红色边框 */
+    border-top: 2px solid #ff6666; /* 浅红色边框 */
 }
