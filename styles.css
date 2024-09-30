@@ -11,25 +11,19 @@ html, body {
 }
 
 header {
-    background-color: #003366; /* 深蓝色背景 */
+    background-color: #FFFFFF; /* 白色背景 */
     border-bottom: 2px solid red; /* 红色边框 */
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #FFFFFF; /* 设置字体颜色为白色以便于阅读 */
+    color: #003366; /* 深蓝色字体 */
 }
 
-h1 {
-    color: #FFFFFF; /* 白色字体 */
+h1, h2 {
+    color: #003366; /* 深蓝色字体 */
     margin: 0; 
     font-family: Georgia, sans-serif; 
-}
-
-h2 {
-    color: #FFFFFF; /* 白色字体 */
-    margin: 0; 
-    font-family: Georgia, Arial, sans-serif; 
 }
 
 nav {
@@ -37,7 +31,7 @@ nav {
 }
 
 nav a {
-    color: #FFFFFF; /* 白色字体 */
+    color: #003366; /* 深蓝色字体 */
     text-decoration: none;
     padding: 0.5em 1em;
     font-family: Georgia, Arial, sans-serif; 
@@ -72,8 +66,8 @@ img {
 }
 
 footer {
-    background-color: #003366; /* 深蓝色背景 */
-    color: #fff;
+    background-color: #FFFFFF; /* 白色背景 */
+    color: #003366; /* 深蓝色字体 */
     text-align: center;
     padding: 0.2em; 
     font-size: 0.8em; 
@@ -82,4 +76,5 @@ footer {
     box-sizing: border-box;
     bottom: 0;
     font-family: Georgia, Comic Sans MS, Arial, sans-serif; 
+    border-top: 2px solid red; /* 红色边框 */
 }
