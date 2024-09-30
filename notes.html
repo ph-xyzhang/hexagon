@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhang Xinye</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        var password = prompt("Enter the password:");
+        if (password !== "phys2025@cuhk") {
+            alert("Access denied.");
+            window.location.href = "about:blank"; // Redirect to a blank page
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Zhang Xinye</h1>
+        <nav>
+            <a href="homepage.html">Homepage</a>
+            <a href="education.html">Education</a>
+            <a href="research.html">Research</a>
+            <a href="code.html">Code</a>
+            <a href="notes.html">Notes</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="sidebar">
+            <img src="photo.jpg" alt="描述">
+        </div>
+        <div class="content">
+            <section>
+                <h2>some study notes summarized by myself</h2>
+                <p><a href="Introduction to complex analysis_junjiro.pdf">notes on electromagnetism</a></p>
+                <p><a href="Introduction to complex analysis_junjiro.pdf">notes on solid state physics</a></p>
+                <p><a href="Introduction to complex analysis_junjiro.pdf">notes on final year project</a></p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Zhang Xinye</p>
+    </footer>
+</body>
+</html>
 
