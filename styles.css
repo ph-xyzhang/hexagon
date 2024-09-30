@@ -11,23 +11,23 @@ html, body {
 }
 
 header {
-    background-color: #FFFFFF; 
-    border-bottom: 2px solid #EAB8E4; 
+    background-color: #003366; /* 深蓝色背景 */
+    border-bottom: 2px solid red; /* 红色边框 */
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #008B8B; 
+    color: #FFFFFF; /* 设置字体颜色为白色以便于阅读 */
 }
 
 h1 {
-    color: #008B8B; 
+    color: #FFFFFF; /* 白色字体 */
     margin: 0; 
     font-family: Georgia, sans-serif; 
 }
 
 h2 {
-    color: #008B8B; 
+    color: #FFFFFF; /* 白色字体 */
     margin: 0; 
     font-family: Georgia, Arial, sans-serif; 
 }
@@ -37,7 +37,7 @@ nav {
 }
 
 nav a {
-    color: #008B8B; 
+    color: #FFFFFF; /* 白色字体 */
     text-decoration: none;
     padding: 0.5em 1em;
     font-family: Georgia, Arial, sans-serif; 
@@ -72,7 +72,7 @@ img {
 }
 
 footer {
-    background-color: #333;
+    background-color: #003366; /* 深蓝色背景 */
     color: #fff;
     text-align: center;
     padding: 0.2em; 
