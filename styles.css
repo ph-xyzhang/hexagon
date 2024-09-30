@@ -11,8 +11,8 @@ html, body {
 }
 
 header {
-    background-color: #000000; 
-    border-bottom: 2px solid white; 
+    background-color: #FFFFFF; 
+    border-bottom: 2px solid #EAB8E4; 
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@ header {
 }
 
 h1 {
-    color: white; 
+    color: #FF007F; /* 玫红色 */
     margin: 0; 
     font-family: 'Bradley Hand', sans-serif; 
 }
@@ -36,7 +36,7 @@ nav {
 }
 
 nav a {
-    color: white; 
+    color: black; /* 可根据需要修改链接颜色 */
     text-decoration: none;
     padding: 0.5em 1em;
     font-family: 'Bradley Hand', Arial, sans-serif; 
