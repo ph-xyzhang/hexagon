@@ -26,6 +26,7 @@ h1, h2 {
     color: #003366; /* 深蓝色字体 */
     margin: 0; 
     font-family: Georgia, sans-serif; 
+    font-size: 1.5em; /* 调整标题字体大小 */
 }
 
 nav {
@@ -37,7 +38,7 @@ nav a {
     text-decoration: none;
     padding: 0.5em 1em;
     font-family: Georgia, Arial, sans-serif; 
-    font-size: 1.1em;
+    font-size: 1em; /* 调整链接字体大小 */
     transition: background-color 0.3s, color 0.3s; /* 增加过渡效果 */
 }
 
@@ -75,7 +76,7 @@ footer {
     color: #003366; /* 深蓝色字体 */
     text-align: center;
     padding: 0.5em; /* 增加内边距 */
-    font-size: 0.9em; /* 适当增大字体 */
+    font-size: 0.8em; /* 调整底部字体大小 */
     position: fixed;
     width: 100%;
     box-sizing: border-box;
