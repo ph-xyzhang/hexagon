@@ -1,5 +1,5 @@
 body {
-    font-family: 'Bradley Hand', Arial, sans-serif; 
+    font-family: Georgia, Arial, sans-serif; 
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
@@ -17,18 +17,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #008B8B; 
 }
 
 h1 {
-    color: #FF007F; /* 玫红色 */
+    color: #008B8B; 
     margin: 0; 
-    font-family: 'Bradley Hand', sans-serif; 
+    font-family: Georgia, sans-serif; 
 }
 
 h2 {
-    color: black; 
+    color: #008B8B; 
     margin: 0; 
-    font-family: 'Bradley Hand', Arial, sans-serif; 
+    font-family: Georgia, Arial, sans-serif; 
 }
 
 nav {
@@ -36,10 +37,10 @@ nav {
 }
 
 nav a {
-    color: black; /* 可根据需要修改链接颜色 */
+    color: #008B8B; 
     text-decoration: none;
     padding: 0.5em 1em;
-    font-family: 'Bradley Hand', Arial, sans-serif; 
+    font-family: Georgia, Arial, sans-serif; 
     font-size: 1.1em;
 }
 
@@ -80,5 +81,5 @@ footer {
     width: 100%;
     box-sizing: border-box;
     bottom: 0;
-    font-family: 'Bradley Hand', Comic Sans MS, Arial, sans-serif; /* 确保页脚使用 Comic Sans MS */
+    font-family: Georgia, Comic Sans MS, Arial, sans-serif; 
 }
