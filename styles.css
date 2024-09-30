@@ -1,18 +1,18 @@
 body {
-    font-family: 'Bradley Hand', Comic Sans MS, Arial, sans-serif; /* 设置字体 */
+    font-family: 'Bradley Hand', Arial, sans-serif; 
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* 包含内边距和边框 */
+    box-sizing: border-box; 
 }
 
 html, body {
-    height: 100%; /* 确保 HTML 和 body 高度为 100% */
-    overflow-x: hidden; /* 防止水平滚动条出现 */
+    height: 100%; 
+    overflow-x: hidden; 
 }
 
 header {
-    background-color: #000000; /* 背景色为黑色 */
-    border-bottom: 2px solid white; /* 底部边框为白色 */
+    background-color: #000000; 
+    border-bottom: 2px solid white; 
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -20,15 +20,15 @@ header {
 }
 
 h1 {
-    color: white; /* 标题颜色为白色 */
-    margin: 0; /* 去除默认外边距 */
-    font-family: 'Bradley Hand', Comic Sans MS, sans-serif; /* 确保标题使用 Comic Sans MS */
+    color: white; 
+    margin: 0; 
+    font-family: 'Bradley Hand', sans-serif; 
 }
 
 h2 {
     color: black; 
     margin: 0; 
-    font-family: 'Bradley Hand', Comic Sans MS, Arial, sans-serif; /* 确保副标题使用 Comic Sans MS */
+    font-family: 'Bradley Hand', Arial, sans-serif; 
 }
 
 nav {
@@ -36,46 +36,46 @@ nav {
 }
 
 nav a {
-    color: white; /* 导航链接颜色为白色 */
+    color: white; 
     text-decoration: none;
     padding: 0.5em 1em;
-    font-family: 'Bradley Hand', Comic Sans MS, Arial, sans-serif; /* 确保导航链接使用 Comic Sans MS */
+    font-family: 'Bradley Hand', Arial, sans-serif; 
     font-size: 1.1em;
 }
 
 nav a:hover {
-    background-color: #333; /* 悬停时背景颜色稍微改变 */
-    color: white; /* 悬停时文字颜色依然为白色 */
+    background-color: #333; 
+    color: white; 
     border-radius: 4px;
 }
 
 main {
-    display: flex; /* 使用 Flexbox 布局 */
+    display: flex;
     padding: 2em;
-    margin-bottom: 2.2em; /* 确保内容不被 footer 遮挡 */
+    margin-bottom: 2.2em; 
 }
 
 .sidebar {
-    flex: 0 0 150px; /* 左侧栏宽度固定为 150px */
-    margin-right: 20px; /* 右侧文本与左侧图像间距 */
+    flex: 0 0 150px; 
+    margin-right: 20px; 
 }
 
 .content {
-    flex: 1; /* 右侧栏占据剩余空间 */
+    flex: 1;
 }
 
 img {
-    width: 100%; /* 图像宽度为 100% */
-    height: auto; /* 保持图像比例 */
-    border-radius: 50%; /* 创建椭圆形 */
+    width: 100%; 
+    height: auto; 
+    border-radius: 50%; 
 }
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 0.2em; /* 减少内边距 */
-    font-size: 0.8em; /* 减小字体大小 */
+    padding: 0.2em; 
+    font-size: 0.8em; 
     position: fixed;
     width: 100%;
     box-sizing: border-box;
